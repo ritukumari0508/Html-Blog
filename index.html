@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0%;padding: 0%;
+            box-sizing: border-box;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul{
+            list-style: none;
+        }
+        body{
+            margin:0px;padding:0px;
+        }
+        #blog{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .blog-heading{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .blog-heading span{
+            color: red ;
+        }
+        .blog-heading h3{
+            font-weight: 600;
+        }
+        .blog-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin :20px 0px;
+            flex-wrap: wrap;
+
+
+        }
+        .blog-box{
+            width:350px;
+            background-color: white;
+            border:1px solid #ece;
+            margin:20px;
+        }
+        .blog-img{
+            width:100%;
+            height: auto;
+        }
+        .blog-img img{
+            width:100%;
+            height:100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        .blog-text{
+            padding:30px;
+            display: flex;
+            flex-direction: column;
+        }
+        .blog-text span{
+            color:tomato;
+            font-size: 0.9rem;
+        }
+        .blog-text .blog-title{
+            font-size: 1.3rem;
+            font-weight: 500;
+            color:black
+        }
+         .blog-text p{
+            color:green
+        }
+    </style>
+</head>
+<body>
+    <section id ="blog">
+<div class="blog-heading">
+    <span>My Recent Post</span>
+    <h3>My Blog</h3>
+    
+
+</div>
+<div class="blog-container">
+    <div class="blog-box">
+        <div class="blog-img">
+            <img src="./image/image for site.jpg" alt="img not available">
+        </div>
+        <div class="blog-text">
+            <span> 17- nov- 2021/Web design</span><br>
+            <a href="#"class="blog-title"> Blog Post 1</a>
+            <p> This is a Tech blog with a focus on personal and consumer technology. The best place for meaningful tech news, 
+                analysis, views and reviews. 50 -1. Rank. 3. Mentions. Tweet. Share. Run a blog? </p>
+            <a href="description.html" >Read more</a>
+        </div>
+    </div>
+    <div class="blog-box">
+        <div class="blog-img">
+            <img src="./image/image for site.jpg" alt="img not available">
+        </div>
+        <div class="blog-text">
+            <span> 17- nov- 2021/Web design</span><br>
+            <a href="#"class="blog-title"> Blog Post 2</a>
+            <p>This is a Tech blog with a focus on personal and consumer technology. The best place for meaningful tech news, analysis, views and reviews.
+                 50 -1. Rank. 3. Mentions. Tweet. Share. Run a blog? </p>
+            <a href="description.html" >Read more</a>
+        </div>
+    </div>
+    <div class="blog-box">
+        <div class="blog-img">
+            <img src="./image/image for site.jpg" alt="img not available">
+        </div>
+        <div class="blog-text">
+            <span> 17- nov- 2021/Web design</span><br>
+            <a href="#"class="blog-title"> Blog Post 3</a>
+            <p> This is a Tech blog with a focus on personal and consumer technology. The best place for meaningful tech news,
+                 analysis, views and reviews. 50 -1. Rank. 3. Mentions. Tweet. Share. Run a blog? </p>
+            <a href="description.html" >Read more</a>
+        </div>
+    </div>
+</div>
+    </section>
+</body>
+</html>
